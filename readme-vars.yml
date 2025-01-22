@@ -6,6 +6,7 @@ project_url: "https://keepassxc.org/"
 project_logo: "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/keepassxc-logo.png"
 project_blurb: "[KeePassXC]({{ project_url }}) is a free and open-source password manager. It started as a community fork of KeePassX (itself a cross-platform port of KeePass)."
 project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
+project_categories: "Password Manager"
 project_blurb_optional_extras_enabled: false
 # supported architectures
 available_architectures:
