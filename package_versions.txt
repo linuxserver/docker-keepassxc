@@ -1,8 +1,9 @@
 NAME                                                                          VERSION                                 TYPE                       
+Simple Launcher                                                               1.1.0.14                                binary     (+5 duplicates)  
 acl-libs                                                                      2.3.2-r1                                apk                         
 agetty                                                                        2.41-r9                                 apk                         
 aiohappyeyeballs                                                              2.6.1                                   python                      
-aiohttp                                                                       3.12.14                                 python                      
+aiohttp                                                                       3.12.15                                 python                      
 aioice                                                                        0.10.1                                  python                      
 aiosignal                                                                     1.4.0                                   python                      
 alpine-baselayout                                                             3.7.0-r0                                apk                         
@@ -36,6 +37,10 @@ catatonit                                                                     0.
 cdparanoia-libs                                                               10.2-r14                                apk                         
 cfdisk                                                                        2.41-r9                                 apk                         
 cffi                                                                          1.17.1                                  python                      
+cli                                                                           UNKNOWN                                 binary                      
+cli-32                                                                        UNKNOWN                                 binary                      
+cli-64                                                                        UNKNOWN                                 binary                      
+cli-arm64                                                                     UNKNOWN                                 binary                      
 cloud.google.com/go/compute/metadata                                          v0.6.0                                  go-module                   
 cloud.google.com/go/logging                                                   v1.9.0                                  go-module                   
 cloud.google.com/go/longrunning                                               v0.5.5                                  go-module                   
@@ -56,11 +61,11 @@ dbus-libs                                                                     1.
 dbus-x11                                                                      1.16.2-r1                               apk                         
 dmesg                                                                         2.41-r9                                 apk                         
 dnspython                                                                     2.7.0                                   python                      
-docker                                                                        28.3.0-r0                               apk                         
-docker-cli                                                                    28.3.0-r0                               apk                         
+docker                                                                        28.3.3-r0                               apk                         
+docker-cli                                                                    28.3.3-r0                               apk                         
 docker-cli-buildx                                                             0.24.0-r0                               apk                         
 docker-cli-compose                                                            2.36.2-r0                               apk                         
-docker-engine                                                                 28.3.0-r0                               apk                         
+docker-engine                                                                 28.3.3-r0                               apk                         
 dunst                                                                         1.12.2-r0                               apk                         
 dunstify                                                                      1.12.2-r0                               apk                         
 encodings                                                                     1.0.7-r1                                apk                         
@@ -282,7 +287,7 @@ github.com/mitchellh/hashstructure/v2                                         v2
 github.com/mitchellh/mapstructure                                             v1.5.0                                  go-module                   
 github.com/mitchellh/reflectwalk                                              v1.0.2                                  go-module                   
 github.com/moby/buildkit                                                      v0.22.0                                 go-module  (+1 duplicate)   
-github.com/moby/buildkit                                                      v0.23.1                                 go-module                   
+github.com/moby/buildkit                                                      v0.23.2                                 go-module                   
 github.com/moby/docker-image-spec                                             v1.3.1                                  go-module  (+2 duplicates)  
 github.com/moby/go-archive                                                    v0.1.0                                  go-module  (+2 duplicates)  
 github.com/moby/ipvs                                                          v1.1.0                                  go-module                   
@@ -354,7 +359,7 @@ github.com/tinylib/msgp                                                       v1
 github.com/tonistiigi/dchapes-mode                                            v0.0.0-20250318174251-73d941a28323      go-module  (+2 duplicates)  
 github.com/tonistiigi/fsutil                                                  v0.0.0-20250417144416-3f76f8130144      go-module  (+1 duplicate)   
 github.com/tonistiigi/fsutil                                                  v0.0.0-20250605211040-586307ad452f      go-module                   
-github.com/tonistiigi/go-actions-cache                                        v0.0.0-20250611155157-388a2ec8cdf8      go-module                   
+github.com/tonistiigi/go-actions-cache                                        v0.0.0-20250626083717-378c5ed1ddd9      go-module                   
 github.com/tonistiigi/go-archvariant                                          v1.0.0                                  go-module                   
 github.com/tonistiigi/go-csvvalue                                             v0.0.0-20240710180619-ddb21b71c0b4      go-module  (+1 duplicate)   
 github.com/tonistiigi/go-csvvalue                                             v0.0.0-20240814133006-030d3b2625d0      go-module                   
@@ -474,6 +479,10 @@ gstreamer-ptp-helper                                                          1.
 gtk+3.0                                                                       3.24.49-r1                              apk                         
 gtk+3.0-lang                                                                  3.24.49-r1                              apk                         
 gtk-update-icon-cache                                                         3.24.49-r1                              apk                         
+gui                                                                           UNKNOWN                                 binary                      
+gui-32                                                                        UNKNOWN                                 binary                      
+gui-64                                                                        UNKNOWN                                 binary                      
+gui-arm64                                                                     UNKNOWN                                 binary                      
 harfbuzz                                                                      11.2.1-r0                               apk                         
 hexdump                                                                       2.41-r9                                 apk                         
 hicolor-icon-theme                                                            0.18-r0                                 apk                         
@@ -670,7 +679,6 @@ opus                                                                          1.
 orc                                                                           0.4.40-r1                               apk                         
 p11-kit                                                                       0.25.5-r2                               apk                         
 packaging                                                                     24.2                                    python                      
-packaging                                                                     25.0                                    python                      
 pango                                                                         1.56.3-r0                               apk                         
 partx                                                                         2.41-r9                                 apk                         
 pasimple                                                                      0.0.3                                   python                      
@@ -680,6 +688,7 @@ pcmflux                                                                       1.
 pcre2                                                                         10.43-r1                                apk                         
 pcsc-lite-libs                                                                2.3.3-r0                                apk                         
 pillow                                                                        11.3.0                                  python                      
+pip                                                                           25.0.1                                  python                      
 pixelflux                                                                     1.3.0                                   python                      
 pixman                                                                        0.46.4-r0                               apk                         
 pkgconf                                                                       2.4.3-r0                                apk                         
@@ -694,19 +703,12 @@ pulseaudio-alsa                                                               17
 pulseaudio-lang                                                               17.0-r5                                 apk                         
 pulseaudio-utils                                                              17.0-r5                                 apk                         
 pulsectl                                                                      24.12.0                                 python                      
-py3-packaging                                                                 25.0-r0                                 apk                         
-py3-packaging-pyc                                                             25.0-r0                                 apk                         
-py3-parsing                                                                   3.2.3-r0                                apk                         
-py3-parsing-pyc                                                               3.2.3-r0                                apk                         
-py3-setuptools                                                                80.9.0-r0                               apk                         
-py3-setuptools-pyc                                                            80.9.0-r0                               apk                         
 pyc                                                                           3.12.11-r0                              apk                         
 pycparser                                                                     2.22                                    python                      
 pyee                                                                          13.0.0                                  python                      
 pylibsrtp                                                                     0.12.0                                  python                      
 pynput                                                                        1.8.1                                   python                      
 pyopenssl                                                                     25.1.0                                  python                      
-pyparsing                                                                     3.2.3                                   python                      
 python-xlib                                                                   0.33                                    python                      
 python3                                                                       3.12.11-r0                              apk                         
 python3-pyc                                                                   3.12.11-r0                              apk                         
@@ -748,7 +750,7 @@ st                                                                            0.
 startup-notification                                                          0.12-r8                                 apk                         
 stdlib                                                                        go1.24.3                                go-module  (+2 duplicates)  
 stdlib                                                                        go1.24.4                                go-module  (+4 duplicates)  
-sudo                                                                          1.9.17_p1-r0                            apk                         
+sudo                                                                          1.9.17_p2-r0                            apk                         
 tags.cncf.io/container-device-interface                                       v1.0.1                                  go-module  (+2 duplicates)  
 tags.cncf.io/container-device-interface/specs-go                              v1.0.0                                  go-module  (+1 duplicate)   
 tar                                                                           1.35-r3                                 apk                         
