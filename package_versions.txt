@@ -4,7 +4,7 @@ acl-libs                                                                      2.
 agetty                                                                        2.41.2-r0                               apk                          
 aiofiles                                                                      25.1.0                                  python                       
 aiohappyeyeballs                                                              2.6.1                                   python                       
-aiohttp                                                                       3.13.2                                  python                       
+aiohttp                                                                       3.13.3                                  python                       
 aioice                                                                        0.10.2                                  python                       
 aiosignal                                                                     1.4.0                                   python                       
 alpine-baselayout                                                             3.7.1-r8                                apk                          
@@ -24,9 +24,9 @@ apk-tools                                                                     3.
 arg_enum_proc_macro                                                           0.3.4                                   rust-crate                   
 argon2-libs                                                                   20190702-r5                             apk                          
 arrayvec                                                                      0.7.4                                   rust-crate                   
-at-spi2-core                                                                  2.58.2-r0                               apk                          
-at-spi2-core-lang                                                             2.58.2-r0                               apk                          
-at-spi2-core-libs                                                             2.58.2-r0                               apk                          
+at-spi2-core                                                                  2.58.3-r0                               apk                          
+at-spi2-core-lang                                                             2.58.3-r0                               apk                          
+at-spi2-core-libs                                                             2.58.3-r0                               apk                          
 attrs                                                                         25.4.0                                  python                       
 autocommand                                                                   2.2.2                                   python                       
 av                                                                            14.4.0                                  python                       
@@ -637,8 +637,8 @@ lcms2                                                                         2.
 libapk                                                                        3.0.3-r1                                apk                          
 libarchive                                                                    3.8.4-r0                                apk                          
 libasyncns                                                                    0.8-r4                                  apk                          
-libatk-1.0                                                                    2.58.2-r0                               apk                          
-libatk-bridge-2.0                                                             2.58.2-r0                               apk                          
+libatk-1.0                                                                    2.58.3-r0                               apk                          
+libatk-bridge-2.0                                                             2.58.3-r0                               apk                          
 libattr                                                                       2.5.2-r2                                apk                          
 libblkid                                                                      2.41.2-r0                               apk                          
 libbsd                                                                        0.12.2-r0                               apk                          
@@ -751,7 +751,7 @@ libxv                                                                         1.
 libxvmc                                                                       1.0.14-r1                               apk                          
 libxxf86vm                                                                    1.1.6-r0                                apk                          
 linux-firmware-none                                                           20251125-r1                             apk                          
-linux-pam                                                                     1.7.1-r1                                apk                          
+linux-pam                                                                     1.7.1-r2                                apk                          
 linux-raw-sys                                                                 0.4.12                                  rust-crate                   
 llvm21-libs                                                                   21.1.2-r1                               apk                          
 log                                                                           0.4.20                                  rust-crate                   
@@ -825,12 +825,12 @@ pasimple                                                                      0.
 paste                                                                         1.0.14                                  rust-crate                   
 pciutils                                                                      3.14.0-r0                               apk                          
 pciutils-libs                                                                 3.14.0-r0                               apk                          
-pcmflux                                                                       1.0.6                                   python                       
+pcmflux                                                                       1.0.7                                   python                       
 pcre2                                                                         10.47-r0                                apk                          
 pcsc-lite-libs                                                                2.4.0-r1                                apk                          
-pillow                                                                        12.0.0                                  python                       
+pillow                                                                        12.1.0                                  python                       
 pip                                                                           25.0.1                                  python                       
-pixelflux                                                                     1.5.3                                   python                       
+pixelflux                                                                     1.5.4                                   python                       
 pixman                                                                        0.46.4-r0                               apk                          
 pkgconf                                                                       2.5.1-r0                                apk                          
 platformdirs                                                                  4.2.2                                   python                       
@@ -951,6 +951,7 @@ websockets                                                                    15
 wheel                                                                         0.45.1                                  python                       
 wipefs                                                                        2.41.2-r0                               apk                          
 wl-clipboard                                                                  2.2.1-r1                                apk                          
+wlr-randr                                                                     0.5.0-r1                                apk                          
 wlroots                                                                       0.19.2-r0                               apk                          
 wtype                                                                         0.4-r0                                  apk                          
 wyz                                                                           0.5.1                                   rust-crate                   
