@@ -3,6 +3,8 @@
 # jenkins variables
 project_name: docker-keepassxc
 external_type: alpine_repo
+custom_release_notes_command: |-
+  curl -H "Authorization: token ${GITHUB_TOKEN}" -s "https://api.github.com/repos/keepassxreboot/keepassxc/releases/tags/${EXT_RELEASE%%-r*}" | jq -r '. |.body' | sed -e 's|#\\([0-9]\\+\\)|[#\\1](https://github.com/keepassxreboot/keepassxc/pull/\\1)|g' > releasebody.json
 release_type: stable
 release_tag: latest
 ls_branch: master
